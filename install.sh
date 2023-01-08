@@ -92,12 +92,6 @@ else
     ~/.config/ezsh/fzf/install --all --key-bindings --completion --no-update-rc
 fi
 
-if [ -d ~/.config/ezsh/oh-my-zsh/custom/plugins/k ]; then
-    cd ~/.config/ezsh/oh-my-zsh/custom/plugins/k && git pull
-else
-    git clone --depth 1 https://github.com/supercrabtree/k ~/.config/ezsh/oh-my-zsh/custom/plugins/k
-fi
-
 if [ -d ~/.config/ezsh/marker ]; then
     cd ~/.config/ezsh/marker && git pull
 else
