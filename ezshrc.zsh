@@ -81,7 +81,6 @@ plugins=(
     screen
     systemd
     web-search
-    k
     extract
     z
     sudo
